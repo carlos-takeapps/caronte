@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caronte Windows Client", "Caronte Windows Client\Caronte Windows Client.csproj", "{D06F446B-6040-4757-BE20-34A6CF08319D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Caronte Web Service", "Caronte Web Service", "{495C062E-CD7A-4490-A8D7-25772608C080}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Caronte Web Service"
+		Debug.AspNetCompiler.PhysicalPath = "Caronte Web Service\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Caronte Web Service\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Caronte Web Service"
+		Release.AspNetCompiler.PhysicalPath = "Caronte Web Service\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Caronte Web Service\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4921"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs05
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = Caronte\u0020Web\u0020Service
+		SccProjectName1 = Caronte\u0020Web\u0020Service
+		SccLocalPath1 = Caronte\u0020Web\u0020Service
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = Caronte\u0020Windows\u0020Client\\Caronte\u0020Windows\u0020Client.csproj
+		SccProjectName2 = Caronte\u0020Windows\u0020Client
+		SccLocalPath2 = Caronte\u0020Windows\u0020Client
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D06F446B-6040-4757-BE20-34A6CF08319D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D06F446B-6040-4757-BE20-34A6CF08319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D06F446B-6040-4757-BE20-34A6CF08319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D06F446B-6040-4757-BE20-34A6CF08319D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495C062E-CD7A-4490-A8D7-25772608C080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495C062E-CD7A-4490-A8D7-25772608C080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495C062E-CD7A-4490-A8D7-25772608C080}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{495C062E-CD7A-4490-A8D7-25772608C080}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
